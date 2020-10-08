@@ -1,0 +1,202 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image:url("Assets/newsprinkle_background.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+  }
+  .wrapper {
+    margin: 80px 20px 0px;
+  }
+  .jumbotron {
+    margin-top: 100px;
+    height: 500px; 
+    background-blend-mode: soft-light;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  h1 {
+    color: rgb(255, 254, 250);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    font-weight: 100;
+    text-shadow: 3px 3px rgb(214, 100, 119);
+    text-align: center;
+    top: 50px;
+  }
+  .form-container {
+    text-align: center;
+  }
+  /**** LAYOUT ****/
+
+.reset_btn {
+    margin-right: 75px;
+    background-color: lightpink;
+    border: none;
+    color: rgb(228, 87, 110);
+    font-size: 20px !important;
+    padding: 2px 2px;
+    text-align: center;
+    cursor: pointer;
+    width: 75px;
+    height: 43px;
+}
+
+.reset_btn:hover {
+  color: rgb(192, 25, 95);
+}
+
+.reset_btn:active {
+  color:rgb(192, 25, 95);
+}
+
+.row-result {
+    transition: ease 200ms;
+  }
+  
+  .btn-row {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    z-index: 1000;
+    left: 40px;
+  }
+  
+  
+  /**** TYPOGRAPHY ****/
+  
+  h1 {
+    margin-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+  
+  .search-text {
+    padding-top: 25px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  
+  /**** ICONOGRAPHY ****/
+  
+  .btn_icon {
+    margin-right: 75px;
+    background-color: lightpink;
+    border: none;
+    color: rgb(228, 87, 110);
+    font-size: 35px !important;
+    padding: 12px 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .btn_icon:hover {
+    color: rgb(192, 25, 95);
+  }
+  
+  .btn_icon:active {
+    color:rgb(192, 25, 95);
+  }
+  
+  .cake {
+    margin-right: 0px;
+    margin-left: -12px;
+  }
+  
+  .fa-search {
+    padding-right: 15px;
+    font-size: 24px !important;
+  }
+  
+  .fa-times {
+    margin-top: -6px;
+    font-size: 30px !important;
+    cursor: pointer;
+    color: #F498BA;
+  }
+  
+  .fa-times:hover {
+    color: #D86C98;
+  }
+  
+  
+  /**** IMAGES ****/
+  
+  .img-container {
+    width: 300px;
+    height: auto;
+    margin: 25px auto 75px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  img {
+    max-width: 100%;
+    height: 200px;
+  }
+  
+  
+  /**** FORM ****/
+  
+  form {
+    text-align: center;
+  }
+  
+  input {
+    width: 90%;
+    margin-bottom: 25px;
+    padding: 5px;
+    border: 1px #DDD solid;
+    transition: 400ms ease;
+    font-size: 24px;
+  }
+  
+  input:focus {
+    padding: 20px;
+    border: 2px #C6E4CB solid;
+    transition: 300ms ease;
+  }
+  
+  ::-moz-placeholder {
+    color: #BBB;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #BBB;
+  }
+  
+  #search-btn {
+    margin: 0 auto;
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FECB86;
+    color: #6B3F27;
+    letter-spacing: 1px;
+    display: block;
+    transition: ease 100ms;
+  }
+  
+  #search-btn:hover {
+    background-color: #D89D56;
+  }
+  
+  
+  /**** MEDIA QUERIES ****/
+  
+  @media only screen and (min-width:768px) {
+    input {
+      width: 60%;
+    }
+    .btn-row {
+      padding-top: 25px;
+      padding-bottom: 15px;
+      position: relative
+    }
+    .btn-icon {
+      font-size: 60px !important;
+    }
+  }
